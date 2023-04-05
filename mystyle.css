@@ -1,22 +1,25 @@
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 h1 {
-  text-align: center;
+    margin-top: 50px;
 }
 
-#meme-container {
-  max-width: 500px;
-  margin: 0 auto;
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
 }
 
-#meme-image {
-  max-width: 100%;
-  height: auto;
-}
-
-#generate-button {
-  display: block;
-  margin: 30px auto;
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
