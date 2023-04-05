@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#meme-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#meme-image {
+  max-width: 100%;
+  height: auto;
+}
+
+#generate-button {
+  display: block;
+  margin: 30px auto;
+}
