@@ -1,4 +1,4 @@
 function getRandomMeme() {
     var memeImage = document.getElementById('memeImage');
-    memeImage.src = 'https://i.redd.it/9gcfson14sqa1.jpg';
+    memeImage.src = 'https://i.redd.it/crl4hlqc7e991.jpg';
 }
