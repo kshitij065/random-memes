@@ -10,11 +10,11 @@ async function getMeme() {
     memeImg.src = data.url;
     memeTitle.innerText = data.title;
   } catch (error) {
-    memeTitle.innerText = "Failed to load meme 😢";
+    memeTitle.innerText = "Failed to load meme ;-; ";
   }
 }
 
 btn.addEventListener("click", getMeme);
 
-// Load meme on page open
+// Load meme on page as soon as opens
 getMeme();
